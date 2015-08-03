@@ -1,2 +1,2 @@
-# st
-ST3
+# repository st
+ST3 configuration
