@@ -9,6 +9,11 @@ S : Shift
 C : Ctrl
 
 
+## Debug Bindings
+
+Set `sublime.log_input(True)` in the Console
+
+
 ## Umbelegungen für Schweizerdeutsche Tastatur
 
 C-<     Show Console (Ctrl-`)
@@ -26,3 +31,9 @@ C-<     Show Console (Ctrl-`)
 | ⌥-C-up     | ⌘-up       | scroll line up    | -                                         |
 | ⌥-C-down   | ⌘-down     | scroll line down  | -                                         |
 
+
+## Not to miss
+
+⌘-R     Outline view (Goto Symbol)
+⌘-P     Show/Filter open files (Goto Anything)
+⌘-S-D   Select current word repeatedly! (⌘-D in Original-Binding)
