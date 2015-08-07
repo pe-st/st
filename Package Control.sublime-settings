@@ -4,6 +4,7 @@
 	],
 	"installed_packages":
 	[
+		"knockdown",
 		"Package Control",
 		"Theme - Soda"
 	]

@@ -18,7 +18,9 @@ C-<     Show Console (Ctrl-`)
 
 ## Unterschiede zu IntelliJ
 
-| Sublime 	| IntelliJ 	| action 			| original sublime action for IntelliJ key  |
-| ⌘-S-D 	| ⌘-D    	| duplicate line 	| find_under_expand							|
-| ⌘-C-up	| ⌘-S-up 	| swap line up 		| -											|
-| ⌘-C-down	| ⌘-S-down	| swap line down 	| -                                         |
+| Sublime    | IntelliJ   | action            | original sublime action for IntelliJ key  |
+| ---------- | ---------- | ----------------- | ----------------------------------------- |
+| ⌘-S-D      | ⌘-D       | duplicate line    | find_under_expand                         |
+| ⌘-C-up     | ⌘-S-up    | swap line up      | -                                         |
+| ⌘-C-down   | ⌘-S-down  | swap line down    | -                                         |
+
