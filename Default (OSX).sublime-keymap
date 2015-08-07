@@ -1,6 +1,23 @@
 [
+    // these are broken on OS X
 	{ "keys": ["home"], "command": "move_to", "args": {"to": "bol"} },
 	{ "keys": ["end"], "command": "move_to", "args": {"to": "eol"} },
 	{ "keys": ["shift+end"], "command": "move_to", "args": {"to": "eol", "extend": true} },
-	{ "keys": ["shift+home"], "command": "move_to", "args": {"to": "bol", "extend": true } }
+	{ "keys": ["shift+home"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+
+    // do it like IntelliJ
+    { "keys": ["super+shift+up"], "command": "swap_line_up" },
+    { "keys": ["super+shift+down"], "command": "swap_line_down" },
+    { "keys": ["alt+up"], "command": "scroll_lines", "args": {"amount": 1.0} },
+    { "keys": ["alt+down"], "command": "scroll_lines", "args": {"amount": -1.0} },
+    { "keys": ["super+d"], "command": "duplicate_line" },
+
+    // restore functions hidden by IntelliJ bindings on other keys
+    { "keys": ["super+shift+d"], "command": "find_under_expand" }, // original super+d
+    { "keys": ["super+k", "super+shift+d"], "command": "find_under_expand_skip" }, // original super+d
+
+    // define bindings corresponding to US keyboard for swiss german keyboard
+    { "keys": ["super+ä"], "command": "indent" },
+    { "keys": ["super+ö"], "command": "unindent" },
+    { "keys": ["ctrl+<"], "command": "show_panel", "args": {"panel": "console", "toggle": true} }
 ]
