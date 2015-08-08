@@ -34,6 +34,31 @@ C-<     Show Console (Ctrl-`)
 
 ## Not to miss
 
+⌘-S-P   Command Palette (e.g. for git commands)
+⌘-+     Increase font size
+⌘--     Decrease font size
+
+⌘-K, ⌘-U   Uppercase
+⌘-K, ⌘-L   Lowercase
+
+
+### Goto...
+
 ⌘-R     Outline view (Goto Symbol)
 ⌘-P     Show/Filter open files (Goto Anything)
-⌘-S-D   Select current word repeatedly! (⌘-D in Original-Binding)
+        - without symbol: files
+        - @ : symbol (= outline view)
+        - # : words
+
+### Multiple Selections
+
+C-S-down/up  Columnar insert (similar to Ctrl-Enter in Emacs)
+⌘-S-D        Select current word repeatedly! (⌘-D in Original-Binding)
+⌘-C-G        Select all instances of current word (Alt-F3 on Windows)
+
+⌘ + Mouse    Select multiple with the mouse
+⌘-⌥ + Mouse  Columnar selection with the mouse
+
+
+⌘-U          Undo last selection
+Esc          Cancel multiple selections
