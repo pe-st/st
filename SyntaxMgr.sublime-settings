@@ -1,0 +1,21 @@
+{
+    // https://github.com/randy3k/SyntaxMgr
+    // Occasionally, syntax manager may fail to apply settings automatically.
+    // To reload settings, launch comment palette (C+shift+p) and type "Syntax Manager: Reload Settings".
+    "syntaxmgr_settings": [
+        {
+            // platforms, can be osx, windows or linux
+            "platforms": ["osx"],
+            "settings": {
+                "font_size" : 12
+            }
+        },
+        {
+            "platforms": ["linux", "windows"],
+            "settings": {
+                "font_face" : "Meslo LG S DZ",
+                "font_size" : 14
+            }
+        }
+    ]
+}
