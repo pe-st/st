@@ -38,8 +38,25 @@ C-<     Show Console (Ctrl-`)
 ⌘-+     Increase font size
 ⌘--     Decrease font size
 
-⌘-K, ⌘-U   Uppercase
-⌘-K, ⌘-L   Lowercase
+⌘-K, ⌘-U    Uppercase
+⌘-K, ⌘-L    Lowercase
+            Titlecase? (Edit / Convert Case / Titlecase)
+
+⌘-⌥-  2     Split vertical in panes 
+⌘-⌥-S-2     Split horizontal in panes 
+⌘-⌥-1       Remove vertical split 
+
+Indent/format code?
+Snippets
+Markdown preview?
+
+
+### Find / Replace
+
+⌘-F         Find
+⌘-G         Next
+⌘-H         Replace
+⌘-S-F       grep (Find in Files)
 
 
 ### Goto...
@@ -49,6 +66,8 @@ C-<     Show Console (Ctrl-`)
         - without symbol: files
         - @ : symbol (= outline view)
         - # : words
+        - : : lines
+
 
 ### Multiple Selections
 
