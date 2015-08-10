@@ -4,6 +4,7 @@
 	],
 	"installed_packages":
 	[
+		"Dockerfile Syntax Highlighting",
 		"InsertDate",
 		"knockdown",
 		"Package Control",

@@ -1,5 +1,7 @@
 [
     // do it like IntelliJ
+    { "keys": ["alt+shift+up"], "command": "swap_line_up" },
+    { "keys": ["alt+shift+down"], "command": "swap_line_down" },
     { "keys": ["ctrl+d"], "command": "duplicate_line" },
 
     // restore functions hidden by IntelliJ bindings on other keys
