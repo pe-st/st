@@ -1,0 +1,13 @@
+[
+    // do it like IntelliJ
+    { "keys": ["ctrl+d"], "command": "duplicate_line" },
+
+    // restore functions hidden by IntelliJ bindings on other keys
+    { "keys": ["ctrl+shift+d"], "command": "find_under_expand" }, // original ctrl+d
+    { "keys": ["ctrl+k", "ctrl+shift+d"], "command": "find_under_expand_skip" }, // original ctrl+d
+
+    // define bindings corresponding to US keyboard for swiss german keyboard
+    { "keys": ["ctrl+ä"], "command": "indent" },
+    { "keys": ["ctrl+ö"], "command": "unindent" },
+    { "keys": [""], "command": "show_panel", "args": {"panel": "console", "toggle": true} } //  is 0x1c and is what sublime sees for Ctrl-<
+]
