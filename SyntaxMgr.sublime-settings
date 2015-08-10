@@ -11,10 +11,12 @@
             }
         },
         {
-            "platforms": ["linux", "windows"],
+            "platforms": ["windows"],
             "settings": {
                 "font_face" : "Meslo LG S DZ",
-                "font_size" : 14
+                "font_size" : 9,
+                "http_proxy": "http://localhost:3128",
+                "https_proxy": "http://localhost:3128",
             }
         }
     ]
