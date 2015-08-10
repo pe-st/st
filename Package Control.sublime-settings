@@ -4,6 +4,7 @@
 	],
 	"installed_packages":
 	[
+		"InsertDate",
 		"knockdown",
 		"Package Control",
 		"Syntax Manager",

@@ -1,12 +1,17 @@
-Sublime keymaps
-===============
+Sublime keymap
+==============
 
 ## Notation
 
-⌘ : Cmd (sublime-settings: 'super')
+⌘ : Cmd (sublime-settings: 'super', on Windows often Ctrl)
 ⌥ : Option (sublime-settings: 'alt')
 S : Shift
 C : Ctrl
+A : Alt (Windows)
+
+### Differences Mac - Windows
+
+- ⌘ is on Windows Ctrl if not noted otherwise
 
 
 ## Debug Bindings
@@ -21,15 +26,19 @@ C-<     Show Console (Ctrl-`)
 ⌘-ö     Unindent (⌘-[) [eigentlich ⌘-ü siehe oben]
 
 
-## Unterschiede zu IntelliJ
+## Differences to IntelliJ
 
-| Sublime    | IntelliJ   | action            | original sublime action for IntelliJ key  |
-| ---------- | ---------- | ----------------- | ----------------------------------------- |
-| ⌘-S-D      | ⌘-D        | duplicate line    | find_under_expand                         |
-| ⌘-C-up     | ⌘-S-up     | swap line up      | -                                         |
-| ⌘-C-down   | ⌘-S-down   | swap line down    | -                                         |
-| ⌥-C-up     | ⌘-up       | scroll line up    | -                                         |
-| ⌥-C-down   | ⌘-down     | scroll line down  | -                                         |
+Sublime keymap has been adapted to match closely IntelliJ
+
+| Sublime    | IntelliJ   | IJ Windows | action                   | original sublime action for IntelliJ key  |
+| ---------- | ---------- | ---------- | ------------------------ | ----------------------------------------- |
+| ⌘-S-D      | ⌘-D        | C-D        | duplicate line           | find_under_expand                         |
+| ⌥-C-up/d   | ⌘-up/d     | C-up/d     | scroll line up/d         | -                                         |
+| ⌘-C-up/d   | ⌘-S-up     | A-S-up/d   | swap/move line up/d      | -                                         |
+|            | ⌘-⌥-S-up   | C-S-up/d   | swap/move statement up/d | -                                         |
+|            | ⌥-up/d     | A-up/d     | next/prev method         | -                                         |
+|            | C-⌥-up/d   | C-A-up/d   | next/prev occurrence     | -                                         |
+|            | C-⌥-S-up/d | C-A-S-up/d | next/prev change         | -                                         |
 
 
 ## Not to miss
@@ -49,6 +58,7 @@ C-<     Show Console (Ctrl-`)
 Indent/format code?
 Snippets
 Markdown preview?
+Insert Mode
 
 
 ### Find / Replace
