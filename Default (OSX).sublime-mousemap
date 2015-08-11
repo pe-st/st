@@ -1,0 +1,8 @@
+[
+    // Additive Column select also with shift-option like IntelliJ (ST is cmd-option)
+    {
+        "button": "button1", "modifiers": ["alt", "shift"],
+        "press_command": "drag_select",
+        "press_args": {"by": "columns", "additive": true}
+    }
+]

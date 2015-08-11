@@ -12,6 +12,7 @@ A : Alt (Windows)
 ### Differences Mac - Windows
 
 - ⌘ is on Windows Ctrl if not noted otherwise
+- toggle_overwrite is 'insert' on Windows and ⌘-⌥-O on OSX
 
 
 ## Debug Bindings
@@ -39,8 +40,13 @@ Sublime keymap has been adapted to match closely IntelliJ
 |            | ⌥-up/d     |            | A-up/d     | next/prev method         | -                           |                |
 |            | C-⌥-up/d   |            | C-A-up/d   | next/prev occurrence     | select_lines                | use Sublime    |
 |            | C-⌥-S-up/d |            | C-A-S-up/d | next/prev change         | -                           |                |
+| ⌥-Lmouse   | ⌥-Lmouse   |            |            | column select            | -                           |                |
+| ⌘-⌥-Lmouse | ⌥-S-Lmouse |            |            | add caret                | -                           | use IJ         |
+| C-S-up/d   | -          |            |            | clone caret up/d         | -                           | use Sublime    |
 
 https://www.jetbrains.com/idea/help/multicursor.html
+
+
 
 ## Not to miss
 
@@ -58,7 +64,6 @@ https://www.jetbrains.com/idea/help/multicursor.html
 Indent/format code?
 Snippets
 Markdown preview?
-Insert Mode
 
 
 ### Find / Replace
