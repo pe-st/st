@@ -30,15 +30,15 @@ C-<     Show Console (Ctrl-`)
 
 Sublime keymap has been adapted to match closely IntelliJ
 
-| Sublime    | IntelliJ   | IJ Windows | action                   | conflicting sublime action  | resolution     |
-| ---------- | ---------- | ---------- | ------------------------ | --------------------------- | -------------- |
-| ⌘-S-D      | ⌘-D        | C-D        | duplicate line           | find_under_expand           | use IJ         |
-| ⌥-C-up/d   | ⌘-up/d     | C-up/d     | scroll line up/d         | -                           |                |
-| ⌘-C-up/d   | ⌘-S-up/d   | A-S-up/d   | swap/move line up/d      | -                           |                |
-|            | ⌘-⌥-S-up/d | C-S-up/d   | swap/move statement up/d | -                           |                |
-|            | ⌥-up/d     | A-up/d     | next/prev method         | -                           |                |
-|            | C-⌥-up/d   | C-A-up/d   | next/prev occurrence     | select_lines                | use Sublime    |
-|            | C-⌥-S-up/d | C-A-S-up/d | next/prev change         | -                           |                |
+| Sublime    | IntelliJ   | Subl Win   | IJ Windows | action                   | conflicting sublime action  | resolution     |
+| ---------- | ---------- | ---------- | ---------- | ------------------------ | --------------------------- | -------------- |
+| ⌘-S-D      | ⌘-D        | C-S-D      | C-D        | duplicate line           | find_under_expand           | use IJ         |
+| ⌥-C-up/d   | ⌘-up/d     | C-up/d     | C-up/d     | scroll line up/d         | -                           |                |
+| ⌘-C-up/d   | ⌘-S-up/d   | C-S-up/d   | A-S-up/d   | swap/move line up/d      | -                           | use IJ         |
+|            | ⌘-⌥-S-up/d |            | C-S-up/d   | swap/move statement up/d | -                           |                |
+|            | ⌥-up/d     |            | A-up/d     | next/prev method         | -                           |                |
+|            | C-⌥-up/d   |            | C-A-up/d   | next/prev occurrence     | select_lines                | use Sublime    |
+|            | C-⌥-S-up/d |            | C-A-S-up/d | next/prev change         | -                           |                |
 
 https://www.jetbrains.com/idea/help/multicursor.html
 
@@ -46,7 +46,6 @@ https://www.jetbrains.com/idea/help/multicursor.html
 
 ⌘-S-P   Command Palette (e.g. for git commands)
 ⌘-+     Increase font size
-⌘--     Decrease font size
 
 ⌘-K, ⌘-U    Uppercase
 ⌘-K, ⌘-L    Lowercase
