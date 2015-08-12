@@ -34,12 +34,13 @@ Sublime keymap has been adapted to match closely IntelliJ
 | Sublime    | IntelliJ   | Subl Win   | IJ Windows | action                   | conflicting sublime action  | resolution     |
 | ---------- | ---------- | ---------- | ---------- | ------------------------ | --------------------------- | -------------- |
 | ⌘-S-D      | ⌘-D        | C-S-D      | C-D        | duplicate line           | find_under_expand           | use IJ         |
-| ⌥-C-up/d   | ⌘-up/d     | C-up/d     | C-up/d     | scroll line up/d         | -                           |                |
+| ⌥-C-up/d   | ⌘-up/d     | C-up/d     | C-up/d     | scroll line up/d         | move_to bof/eof             |                |
 | ⌘-C-up/d   | ⌘-S-up/d   | C-S-up/d   | A-S-up/d   | swap/move line up/d      | -                           | use IJ         |
-|            | ⌘-⌥-S-up/d |            | C-S-up/d   | swap/move statement up/d | -                           |                |
+|            | ⌘-⌥-S-up/d |            | C-S-up/d   | swap/move statement up/d | select_lines (clone caret)  | use Sublime    |
 |            | ⌥-up/d     |            | A-up/d     | next/prev method         | -                           |                |
-|            | C-⌥-up/d   |            | C-A-up/d   | next/prev occurrence     | select_lines                | use Sublime    |
+|            | C-⌥-up/d   |            | C-A-up/d   | next/prev occurrence     | scroll_lines                |                |
 |            | C-⌥-S-up/d |            | C-A-S-up/d | next/prev change         | -                           |                |
+| ⌘-up/d     | ⌘-end/h    |            |            | end/start of text        | -                           | use IJ         |
 | ⌥-Lmouse   | ⌥-Lmouse   |            |            | column select            | -                           |                |
 | ⌘-⌥-Lmouse | ⌥-S-Lmouse |            |            | add caret                | -                           | use IJ         |
 | C-S-up/d   | -          |            |            | clone caret up/d         | -                           | use Sublime    |
