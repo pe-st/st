@@ -6,6 +6,8 @@
 	[
 		"AdvancedNewFile",
 		"Dockerfile Syntax Highlighting",
+		"Git",
+		"GitGutter",
 		"InsertDate",
 		"MarkdownEditing",
 		"Package Control",
