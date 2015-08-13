@@ -15,9 +15,23 @@ A : Alt (Windows)
 - toggle_overwrite is 'insert' on Windows and ⌘-⌥-O on OSX
 
 
-## Debug Bindings
+## How to Debug Bindings
 
-Set `sublime.log_input(True)` in the Console
+- Set `sublime.log_input(True)` in the Console to see the key
+- Set `sublime.log_commands(True)` to see the command
+
+
+## Function Keys
+
+F2  : bookmarks
+F3  : find next (Windows)
+F4  : next/prev result
+F5  : sorting (Mac)
+F6  : spell checking
+F7  : build
+F9  : sorting (Windows)
+F11 : Fullscreen / Distraction Free (Windows)
+F12 : lookup definition
 
 
 ## Umbelegungen für Schweizerdeutsche Tastatur
@@ -58,9 +72,9 @@ https://www.jetbrains.com/idea/help/multicursor.html
 ⌘-K, ⌘-L    Lowercase
             Titlecase? (Edit / Convert Case / Titlecase)
 
-⌘-⌥-  2     Split vertical in panes 
-⌘-⌥-S-2     Split horizontal in panes 
-⌘-⌥-1       Remove vertical split 
+⌘-⌥-  2     Split vertical in panes
+⌘-⌥-S-2     Split horizontal in panes
+⌘-⌥-1       Remove vertical split
 
 Indent/format code?
 Snippets
