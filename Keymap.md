@@ -50,7 +50,7 @@ Sublime keymap has been adapted to match closely IntelliJ
 | ⌘-S-D      | ⌘-D        | C-S-D      | C-D        | duplicate line           | find_under_expand           | use IJ         |
 | ⌥-C-up/d   | ⌘-up/d     | C-up/d     | C-up/d     | scroll line up/d         | move_to bof/eof             |                |
 | ⌘-C-up/d   | ⌘-S-up/d   | C-S-up/d   | A-S-up/d   | swap/move line up/d      | -                           | use IJ         |
-|            | ⌘-⌥-S-up/d |            | C-S-up/d   | swap/move statement up/d | select_lines (clone caret)  | use Sublime    |
+|            | ⌘-⌥-S-up/d |            | C-S-up/d   | swap/move statement up/d | select_lines (clone caret)  | clone caret    |
 |            | ⌥-up/d     |            | A-up/d     | next/prev method         | -                           |                |
 |            | C-⌥-up/d   |            | C-A-up/d   | next/prev occurrence     | scroll_lines                |                |
 |            | C-⌥-S-up/d |            | C-A-S-up/d | next/prev change         | -                           |                |
@@ -72,13 +72,18 @@ https://www.jetbrains.com/idea/help/multicursor.html
 ⌘-K, ⌘-L    Lowercase
             Titlecase? (Edit / Convert Case / Titlecase)
 
+Indent/format code?
+Snippets
+Markdown preview?
+
+### Windows and Panes
+
 ⌘-⌥-  2     Split vertical in panes
 ⌘-⌥-S-2     Split horizontal in panes
 ⌘-⌥-1       Remove vertical split
 
-Indent/format code?
-Snippets
-Markdown preview?
+⌘-K, ⌘-down Split vertical (Origami)
+⌘-K, ⌥-down Clone File (new view) to lower pane 
 
 
 ### Find / Replace

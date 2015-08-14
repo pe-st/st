@@ -1,0 +1,4 @@
+[
+    {"command": "create_pane", "args": {"direction": "down"} },
+    {"command": "clone_file_to_pane", "args": {"direction": "down"} },
+]
