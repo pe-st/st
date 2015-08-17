@@ -4,8 +4,13 @@
 	"ensure_newline_at_eof_on_save": true,
 	"ignored_packages":
 	[
-		"Markdown",
-		"Vintage"
+		"Vintage",
+		"Markdown"
+	],
+	"index_exclude_patterns":
+	[
+		"*.log",
+		"*.pdf"
 	],
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
