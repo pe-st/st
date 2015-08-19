@@ -1,6 +1,21 @@
 Sublime Text
 ============
 
+## Syntax and Colours
+
+### Scopes
+
+- Display the current Scope with <kbd>Cmd</kbd>-<kbd>Alt</kbd>-<kbd>P</kbd>
+- http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/extensibility/syntaxdefs.html
+- (Textmate docu): http://manual.macromates.com/en/scope_selectors
+
+### Colour Themes
+
+- Inherited from Textmate
+- Reference: http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/color_schemes.html
+- Use the *Color Highlighter* package to display the colors inline
+    
+
 ## Plugins
 
 - Managed by Package Control
@@ -32,6 +47,11 @@ Uses <kbd>Cmd</kbd>-<kbd>K</kbd>, <kbd>Cmd</kbd>-<kbd>F</kbd>
 
 - Use it with Command Palette
 - Github Parser doesn't work through proxy
+
+
+### Trailing Spaces
+
+- Use it via *Edit / Trailing Spaces* menu
 
 
 ## Exploration needed
