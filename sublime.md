@@ -3,19 +3,33 @@ Sublime Text
 
 ## Plugins
 
-Managed by Package Control
+- Managed by Package Control
+- Listed in alphabetic order
 
-### Markdown
+
+### Advanced New File
+
+- Bound to <kbd>Cmd</kbd>-<kbd>Alt</kbd>-<kbd>N</kbd> (as opposed to <kbd>Cmd</kbd>-<kbd>N</kbd>)
+- Let's define a name (with a smart default path) before editing
+
+
+### GitGutter
+
+- Seems to slow down ST (at least on Windows?)
+
+
+### Indent XML
+
+Uses <kbd>Cmd</kbd>-<kbd>K</kbd>, <kbd>Cmd</kbd>-<kbd>F</kbd>
+
+
+### MarkdownEditing
 
 - Default Markdown Syntax doesn't support Github Flavored Markdown
 - MarkdownEditing is better than knockdown
 
 - Markdown preview?
 
-### Advanced New File
-
-- Bound to <kbd>Cmd</kbd>-<kbd>Alt</kbd>-<kbd>N</kbd> (as opposed to <kbd>Cmd</kbd>-<kbd>N</kbd>)
-- Let's define a name (with a smart default path) before editing
 
 ## Exploration needed
 
