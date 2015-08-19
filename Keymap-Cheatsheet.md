@@ -8,7 +8,7 @@
 
 
 Mac OS X   | Windows    | ST | IJ | IJ action                      | ST action
----------- | ---------- | -- | -- | ------------------------------ | ---------------------------
+---------- | ---------- | --- | --- | ------------------------------ | ---------------------------
 ⌘-D        | C-D        | mw | ok | duplicate line                 | 
 ⌘-up/d     | C-up/d     | m  | ok | scroll line up/d               | scroll_lines
 ⌘-S-up/d   | A-S-up/d   | mw | ok | swap/move line up/d            | swap_line_up/d
