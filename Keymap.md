@@ -72,9 +72,6 @@ https://www.jetbrains.com/idea/help/multicursor.html
 ⌘-K, ⌘-L    Lowercase
             Titlecase? (Edit / Convert Case / Titlecase)
 
-Indent/format code?
-Snippets
-Markdown preview?
 
 ### Windows and Panes
 
