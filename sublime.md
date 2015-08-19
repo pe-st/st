@@ -28,7 +28,10 @@ Uses <kbd>Cmd</kbd>-<kbd>K</kbd>, <kbd>Cmd</kbd>-<kbd>F</kbd>
 - Default Markdown Syntax doesn't support Github Flavored Markdown
 - MarkdownEditing is better than knockdown
 
-- Markdown preview?
+### Markdown Preview
+
+- Use it with Command Palette
+- Github Parser doesn't work through proxy
 
 
 ## Exploration needed
