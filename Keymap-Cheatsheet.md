@@ -7,14 +7,17 @@
 - m  : has to be configured on Mac
 
 
-Mac OS X   | Windows    | ST | IJ | IJ action                      | ST action
----------- | ---------- | --- | --- | ------------------------------ | ---------------------------
-⌘-D        | C-D        | mw | ok | duplicate line                 | 
-⌘-up/d     | C-up/d     | m  | ok | scroll line up/d               | scroll_lines
-⌘-S-up/d   | A-S-up/d   | mw | ok | swap/move line up/d            | swap_line_up/d
-C-S-up/d   | C-S-up/d   |  w | mw | clone caret up/d (Multicursor) | select_lines?
-⌥-up/d     | A-up/d     | ?? | m  | next/prev method               | 
-⌘-end/h    | C-end/h    | m  | m  | move caret text end/start      | move_to eof/bof
-
-⌥-Lmouse   | A-Lmouse   |  w | ok | column select (Multicursor)    | 
-⌥-S-Lmouse | A-S-Lmouse | mw | ok | add caret (Multicursor)        | 
+Mac OS X    | Windows          | ST  | IJ  | IJ action                      | ST action
+----------- | ---------------- | --- | --- | ------------------------------ | ---------------------------
+⌘-D         | Ctrl-D           | mw  | ok  | duplicate line                 |
+⌘-up/d      | Ctrl-up/d        | m   | ok  | scroll line up/d               | scroll_lines
+⌘-⇧-up/d    | Alt-Shift-up/d   | mw  | ok  | swap/move line up/d            | swap_line_up/d
+ctrl-⇧-up/d | Ctrl-Shift-up/d  |  w  | mw  | clone caret up/d (Multicursor) | select_lines?
+⌥-up/d      | Alt-up/d         | ??  | m   | next/prev method               |
+⌘-end/h     | Ctrl-end/h       | m   | m   | move caret text end/start      | move_to eof/bof
+            |                  |     |     |                                |
+⌥-Lmouse    | Alt-Lmouse       |  w  | ok  | column select (Multicursor)    |
+⌥-⇧-Lmouse  | Alt-Shift-Lmouse | mw  | ok  | add caret (Multicursor)        |
+            |                  |     |     |                                |
+⌘-⌥-L       | Ctrl-Alt-L       | ??  | ok  | reformat code                  |
+⌥-Shift-D   | Alt-Shift-D      | ??  | mw  | fix doc comment                |
