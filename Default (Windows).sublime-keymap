@@ -13,7 +13,9 @@
     { "keys": ["ctrl+shift+down"], "command": "select_lines", "args": {"forward": true} },
 
     // define bindings corresponding to US keyboard for swiss german keyboard
-    { "keys": ["ctrl+ä"], "command": "indent" },
-    { "keys": ["ctrl+ö"], "command": "unindent" },
+    { "keys": ["ctrl+7"], "command": "toggle_comment", "args": { "block": false } },           // because the slash ('/') sits on '7'
+    { "keys": ["ctrl+shift+7"], "command": "toggle_comment", "args": { "block": true } },      // because the slash ('/') sits on '7'
+    { "keys": ["ctrl+\\"], "command": "indent" },                                              // what sublime sees for ctrl-ä
+    { "keys": ["ctrl+'"], "command": "unindent" },                                             // what sublime sees for ctrl-ö
     { "keys": [""], "command": "show_panel", "args": {"panel": "console", "toggle": true} } //  is 0x1c and is what sublime sees for Ctrl-<
 ]
