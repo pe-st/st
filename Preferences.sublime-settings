@@ -4,15 +4,16 @@
 	"ensure_newline_at_eof_on_save": true,
 	"ignored_packages":
 	[
-		"Markdown",
 		"Vintage",
-		"GitGutter"
+		"GitGutter",
+		"Markdown"
 	],
 	"index_exclude_patterns":
 	[
 		"*.log",
 		"*.pdf"
 	],
+	"show_full_path": false,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
