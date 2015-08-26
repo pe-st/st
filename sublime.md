@@ -1,6 +1,13 @@
 Sublime Text
 ============
 
+## Projects and Workspaces
+
+- Projects can have multiple workspaces
+- Only Projects should be added to version control
+- Projects show the configured folders in the sidebar
+
+
 ## Syntax and Colours
 
 ### Scopes
@@ -14,7 +21,6 @@ Sublime Text
 - Inherited from Textmate
 - Reference: http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/color_schemes.html
 - Use the *Color Highlighter* package to display the colors inline
-    
 
 ## Plugins
 
