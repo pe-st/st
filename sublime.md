@@ -64,5 +64,5 @@ Uses <kbd>Cmd</kbd>-<kbd>K</kbd>, <kbd>Cmd</kbd>-<kbd>F</kbd>
 
 Indent/format code?
 Snippets
-Projects?
 Build System or Command line...?
+Toggle wrapping

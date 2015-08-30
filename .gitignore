@@ -1,5 +1,6 @@
 *.sublime-workspace
 Color Highlighter/ColorPicker/
+Color Highlighter/ColorPicker_osx_x64
 Package Control.cache
 Package Control.last-run
 Package Control.merged-ca-bundle

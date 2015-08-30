@@ -36,7 +36,7 @@ F12 : lookup definition
 
 ## Umbelegungen für Schweizerdeutsche Tastatur
 
-C-7     Comment
+⌘-7     Comment
 C-<     Show Console (Ctrl-`)
 ⌘-ä     Indent (⌘-])   [eigentlich ⌘-¨, wegen dead key aber nicht möglich]
 ⌘-ö     Unindent (⌘-[) [eigentlich ⌘-ü siehe oben]

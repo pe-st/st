@@ -21,6 +21,8 @@
     { "keys": ["super+k", "super+shift+d"], "command": "find_under_expand_skip" }, // original super+d
 
     // define bindings corresponding to US keyboard for swiss german keyboard
+    { "keys": ["super+7"], "command": "toggle_comment", "args": { "block": false } },          // because the slash ('/') sits on '7'
+    { "keys": ["super+shift+7"], "command": "toggle_comment", "args": { "block": true } },     // because the slash ('/') sits on '7'
     { "keys": ["super+ä"], "command": "indent" },
     { "keys": ["super+ö"], "command": "unindent" },
     { "keys": ["ctrl+<"], "command": "show_panel", "args": {"panel": "console", "toggle": true} }
