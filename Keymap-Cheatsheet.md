@@ -20,13 +20,13 @@ ctrl-⇧-up/d | Ctrl-Shift-up/d  |  w  | mw  | clone caret up/d (Multicursor) | 
 ⌥-⇧-Lmouse  | Alt-Shift-Lmouse | mw  | ok  | add caret (Multicursor)        |                             |
             |                  |     |     |                                |                             |
 ⌘-⌥-L       | Ctrl-Alt-L       | ??  | ok  | reformat code                  |                             |
-            | Ctrl-Alt-O       | ??  | ok  | optimize imports               |                             | not included in reformat code
+⌘-⌥-O       | Ctrl-Alt-O       | ??  | ok  | optimize imports               |                             | not included in reformat code
 ⌥-Shift-D   | Alt-Shift-D      | ??  | mw  | fix doc comment                |                             |
             |                  |     |     |                                |                             |
-            | Ctrl-Shift-F7    | ??  | ??  | highlight usages in file       |                             | navigate: F3/Shift-F3, exit: Esc
+⌘-⇧-F7      | Ctrl-Shift-F7    | ??  | ok  | highlight usages in file       |                             | navigate: F3/Shift-F3, exit: Esc
             |                  |     |     |                                |                             |
-            | Ctrl-H           | ??  | ??  | type hierarchy                 |                             | switch between class/supertype/subtype hierarchy!
+ctrl-H      | Ctrl-H           | ??  | ok  | type hierarchy                 |                             | switch between class/supertype/subtype hierarchy!
             | Gutter Icons     | ??  | ok  | method hierarchy up/d          |                             |
-            | Ctrl-Alt-U       | ??  | ??  | diagram popup                  |                             |
+⌘-⌥-U       | Ctrl-Alt-U       | ??  | ok  | diagram popup                  |                             |
             |                  |     |     |                                |                             |
-            | Alt-Enter        |     |     | show intention actions         |                             | quick fixes
+⌥-Enter     | Alt-Enter        |     | ok  | show intention actions         |                             | quick fixes
