@@ -1,0 +1,11 @@
+{
+    "folders":
+    [
+        {
+            "path": "C:\\Daten\\src\\fo_java_mars\\ao",
+            "name": "fo_java_mars/ao",
+            "file_include_patterns": ["pom.xml"],
+            "folder_exclude_patterns": [".settings", ".idea", "src", "target"]
+        }
+    ]
+}
