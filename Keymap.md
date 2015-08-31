@@ -59,9 +59,21 @@ Sublime keymap has been adapted to match closely IntelliJ
 | ⌥-Lmouse   | ⌥-Lmouse   |            |            | column select            | -                           |                |
 | ⌘-⌥-Lmouse | ⌥-S-Lmouse |            |            | add caret                | -                           | use IJ         |
 | C-S-up/d   | -          |            |            | clone caret up/d         | -                           | use Sublime    |
+| Cmd-i      |            | C-i        |            | incr find                |                             |                |
+| Cmd-S-i    |            | C-S-i      |            | incr find reverse        |                             |                |
+| Cmd-f      | Cmd-f      | C-f        |            | find                     |                             |                |
+| Cmd-g      | F3         | F3         |            | find next                |                             |                |
+| Cmd-S-g    | S-F3       | S-F3       |            | find pref                |                             |                |
+| Cmd-Alt-g  |            | C-F3       |            | find under               |                             |                |
+| Cmd-A-S-g  |            | C-S-F3     |            | find under prev          |                             |                |
+| Cmd-ctrl-g |            | A-F3       |            | find under all           |                             |                |
+| Cmd-S-f    | ctrl-S-f   | C-S-f      |            | find in files            |                             |                |
+| Cmd-e      |            | C-e        |            | slurp find               |                             |                |
+| Cmd-S-e    |            | C-S-e      |            | slurp replace            |                             |                |
+| Cmd-Alt-f  | Cmd-r      | C-h        |            | replace                  |                             |                |
+| Cmd-Alt-e  |            | C-S-h      |            | replace next             |                             |                |
 
 https://www.jetbrains.com/idea/help/multicursor.html
-
 
 
 ## Not to miss
@@ -81,15 +93,7 @@ https://www.jetbrains.com/idea/help/multicursor.html
 ⌘-⌥-1       Remove vertical split
 
 ⌘-K, ⌘-down Split vertical (Origami)
-⌘-K, ⌥-down Clone File (new view) to lower pane 
-
-
-### Find / Replace
-
-⌘-F         Find
-⌘-G         Next
-⌘-H         Replace
-⌘-S-F       grep (Find in Files)
+⌘-K, ⌥-down Clone File (new view) to lower pane
 
 
 ### Goto...
