@@ -1,6 +1,7 @@
 *.sublime-workspace
 Color Highlighter/ColorPicker/
 Color Highlighter/ColorPicker_osx_x64
+Color Highlighter/themes/Espresso Soda.tmTheme
 Package Control.cache
 Package Control.last-run
 Package Control.merged-ca-bundle

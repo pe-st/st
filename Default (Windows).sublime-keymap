@@ -1,4 +1,7 @@
 [
+    // no default binding
+    { "keys": ["ctrl+0"], "command": "reset_font_size" },
+
     // do it like IntelliJ
     { "keys": ["alt+shift+up"], "command": "swap_line_up" },
     { "keys": ["alt+shift+down"], "command": "swap_line_down" },
@@ -15,6 +18,7 @@
     // define bindings corresponding to US keyboard for swiss german keyboard
     { "keys": ["ctrl+7"], "command": "toggle_comment", "args": { "block": false } },           // because the slash ('/') sits on '7'
     { "keys": ["ctrl+shift+7"], "command": "toggle_comment", "args": { "block": true } },      // because the slash ('/') sits on '7'
+    { "keys": ["ctrl+shift+1"], "command": "increase_font_size" },                             // Ctrl-+, + is Shift+1
     { "keys": ["ctrl+\\"], "command": "indent" },                                              // what sublime sees for ctrl-ä
     { "keys": ["ctrl+'"], "command": "unindent" },                                             // what sublime sees for ctrl-ö
     { "keys": [""], "command": "show_panel", "args": {"panel": "console", "toggle": true} } //  is 0x1c and is what sublime sees for Ctrl-<

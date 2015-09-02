@@ -40,6 +40,7 @@ F12 : lookup definition
 C-<     Show Console (Ctrl-`)
 ⌘-ä     Indent (⌘-])   [eigentlich ⌘-¨, wegen dead key aber nicht möglich]
 ⌘-ö     Unindent (⌘-[) [eigentlich ⌘-ü siehe oben]
+⌘-S-1   increase_font_size (⌘-+)
 
 
 ## Differences to IntelliJ
