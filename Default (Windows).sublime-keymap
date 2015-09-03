@@ -1,6 +1,9 @@
 [
     // no default binding
     { "keys": ["ctrl+0"], "command": "reset_font_size" },
+    { "keys": ["shift+f5"], "command": "insert_iso_date" },
+    { "keys": ["ctrl+f5"], "command": "insert_iso_time" },
+    { "keys": ["ctrl+shift+f5"], "command": "insert_iso_date_time" },
 
     // do it like IntelliJ
     { "keys": ["alt+shift+up"], "command": "swap_line_up" },

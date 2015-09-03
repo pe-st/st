@@ -6,7 +6,9 @@
 	[
 		"Vintage",
 		"GitGutter",
-		"Markdown"
+		"Markdown",
+		"RevertFontSize",
+		"InsertDate"
 	],
 	"index_exclude_patterns":
 	[

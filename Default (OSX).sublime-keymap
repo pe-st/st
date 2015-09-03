@@ -1,13 +1,9 @@
 [
-    // these are broken on OS X
-    { "keys": ["home"], "command": "move_to", "args": {"to": "bol"} },
-    { "keys": ["end"], "command": "move_to", "args": {"to": "eol"} },
-    { "keys": ["shift+end"], "command": "move_to", "args": {"to": "eol", "extend": true} },
-    { "keys": ["shift+home"], "command": "move_to", "args": {"to": "bol", "extend": true} },
-    { "keys": ["super+end"], "command": "move_to", "args": {"to": "eof"} },
-    { "keys": ["super+home"], "command": "move_to", "args": {"to": "bof"} },
-    { "keys": ["super+shift+end"], "command": "move_to", "args": {"to": "eof", "extend": true} },
-    { "keys": ["super+shift+home"], "command": "move_to", "args": {"to": "bof", "extend": true} },
+    // no default binding
+    { "keys": ["super+0"], "command": "reset_font_size" },
+    { "keys": ["shift+f5"], "command": "insert_iso_date" },
+    { "keys": ["ctrl+f5"], "command": "insert_iso_time" },
+    { "keys": ["ctrl+shift+f5"], "command": "insert_iso_date_time" },
 
     // do it like IntelliJ
     { "keys": ["super+shift+up"], "command": "swap_line_up" },
@@ -20,9 +16,20 @@
     { "keys": ["super+shift+d"], "command": "find_under_expand" }, // original super+d
     { "keys": ["super+k", "super+shift+d"], "command": "find_under_expand_skip" }, // original super+d
 
+    // these are broken on OS X
+    { "keys": ["home"], "command": "move_to", "args": {"to": "bol"} },
+    { "keys": ["end"], "command": "move_to", "args": {"to": "eol"} },
+    { "keys": ["shift+end"], "command": "move_to", "args": {"to": "eol", "extend": true} },
+    { "keys": ["shift+home"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+    { "keys": ["super+end"], "command": "move_to", "args": {"to": "eof"} },
+    { "keys": ["super+home"], "command": "move_to", "args": {"to": "bof"} },
+    { "keys": ["super+shift+end"], "command": "move_to", "args": {"to": "eof", "extend": true} },
+    { "keys": ["super+shift+home"], "command": "move_to", "args": {"to": "bof", "extend": true} },
+
     // define bindings corresponding to US keyboard for swiss german keyboard
     { "keys": ["super+7"], "command": "toggle_comment", "args": { "block": false } },          // because the slash ('/') sits on '7'
     { "keys": ["super+shift+7"], "command": "toggle_comment", "args": { "block": true } },     // because the slash ('/') sits on '7'
+    { "keys": ["super+shift+1"], "command": "increase_font_size" },                            // Cmd-+, + is Shift+1
     { "keys": ["super+ä"], "command": "indent" },
     { "keys": ["super+ö"], "command": "unindent" },
     { "keys": ["ctrl+<"], "command": "show_panel", "args": {"panel": "console", "toggle": true} }
