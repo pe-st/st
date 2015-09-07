@@ -66,3 +66,4 @@ Indent/format code?
 Snippets
 Build System or Command line...?
 Toggle wrapping
+Expand Selection commands (super+shift+space, super+shift+j, super+shift+a) similar to IJ Extend Selection?

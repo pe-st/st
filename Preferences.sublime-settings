@@ -1,14 +1,16 @@
 {
 	"always_show_minimap_viewport": true,
+	"caret_style": "phase", // "smooth", "phase", "blink", "wide" and “solid"
 	"color_scheme": "Packages/User/Espresso Soda.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
 	"ignored_packages":
 	[
-		"Vintage",
-		"GitGutter",
-		"Markdown",
 		"RevertFontSize",
-		"InsertDate"
+		"Vintage",
+		"InsertDate",
+		"GitGutter",
+		"Markdown"
 	],
 	"index_exclude_patterns":
 	[

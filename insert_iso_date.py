@@ -17,7 +17,6 @@ class InsertIsoDateCommand(sublime_plugin.TextCommand):
                 self.view.insert (edit, r.a, isoDate)
             else:
                 self.view.replace(edit, r,   isoDate)
-        # self.view.insert(edit, 0, isoDate)
 
 
 class InsertIsoTimeCommand(sublime_plugin.TextCommand):
