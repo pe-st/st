@@ -30,3 +30,5 @@ ctrl-H      | Ctrl-H           | ??  | ok  | type hierarchy                 |   
 ⌘-⌥-U       | Ctrl-Alt-U       | ??  | ok  | diagram popup                  |                             |
             |                  |     |     |                                |                             |
 ⌥-Enter     | Alt-Enter        |     | ok  | show intention actions         |                             | quick fixes
+            |                  |     |     |                                |                             |
+⌘-S-A       | Ctrl-Shift-A     | mw  | ok  | find action                    | command palette             |

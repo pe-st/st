@@ -11,6 +11,7 @@
     { "keys": ["super+up"], "command": "scroll_lines", "args": {"amount": 1.0} },
     { "keys": ["super+down"], "command": "scroll_lines", "args": {"amount": -1.0} },
     { "keys": ["super+d"], "command": "duplicate_line" },
+    { "keys": ["super+shift+a"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
 
     // restore functions hidden by IntelliJ bindings on other keys
     { "keys": ["super+shift+d"], "command": "find_under_expand" }, // original super+d

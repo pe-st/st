@@ -65,5 +65,5 @@ Uses <kbd>Cmd</kbd>-<kbd>K</kbd>, <kbd>Cmd</kbd>-<kbd>F</kbd>
 Indent/format code?
 Snippets
 Build System or Command line...?
-Toggle wrapping
+Toggle wrapping ("command": "toggle_setting", "args": {"setting": "word_wrap"} ? Menu View/Word wrap)
 Expand Selection commands (super+shift+space, super+shift+j, super+shift+a) similar to IJ Extend Selection?
