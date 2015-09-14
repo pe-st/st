@@ -18,6 +18,7 @@
     // do it like Sublime on Mac
     { "keys": ["ctrl+shift+up"], "command": "select_lines", "args": {"forward": false} },
     { "keys": ["ctrl+shift+down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["alt+w"], "command": "close" },
 
     // define bindings corresponding to US keyboard for swiss german keyboard
     { "keys": ["ctrl+7"], "command": "toggle_comment", "args": { "block": false } },           // because the slash ('/') sits on '7'

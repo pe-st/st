@@ -23,6 +23,9 @@ ctrl-⇧-up/d | Ctrl-Shift-up/d  |  w  | mw  | clone caret up/d (Multicursor) | 
 ⌘-⌥-O       | Ctrl-Alt-O       | ??  | ok  | optimize imports               |                             | not included in reformat code
 ⌥-Shift-D   | Alt-Shift-D      | ??  | mw  | fix doc comment                |                             |
             |                  |     |     |                                |                             |
+⌘-F         | Ctrl-F           | ok  | ok  | find                           |                             |
+F3          | F3               | m   | ok  | find next                      |                             |
+Shift-F3    | Shift-F3         | m   | ok  | find previous                  |                             |
 ⌘-⇧-F7      | Ctrl-Shift-F7    | ??  | ok  | highlight usages in file       |                             | navigate: F3/Shift-F3, exit: Esc
             |                  |     |     |                                |                             |
 ctrl-H      | Ctrl-H           | ??  | ok  | type hierarchy                 |                             | switch between class/supertype/subtype hierarchy!
@@ -32,3 +35,4 @@ ctrl-H      | Ctrl-H           | ??  | ok  | type hierarchy                 |   
 ⌥-Enter     | Alt-Enter        |     | ok  | show intention actions         |                             | quick fixes
             |                  |     |     |                                |                             |
 ⌘-S-A       | Ctrl-Shift-A     | mw  | ok  | find action                    | command palette             |
+⌘-W         | Alt-W            |  w  | mw  | close editor tab               | close                       | IJ Mac ⌘-W redefined to ctrl-w
