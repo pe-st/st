@@ -27,6 +27,10 @@
     { "keys": ["super+shift+end"], "command": "move_to", "args": {"to": "eof", "extend": true} },
     { "keys": ["super+shift+home"], "command": "move_to", "args": {"to": "bof", "extend": true} },
 
+    // do it like Sublime on Windows
+    { "keys": ["f3"], "command": "find_next" },
+    { "keys": ["shift+f3"], "command": "find_prev" },
+
     // define bindings corresponding to US keyboard for swiss german keyboard
     { "keys": ["super+7"], "command": "toggle_comment", "args": { "block": false } },          // because the slash ('/') sits on '7'
     { "keys": ["super+shift+7"], "command": "toggle_comment", "args": { "block": true } },     // because the slash ('/') sits on '7'
