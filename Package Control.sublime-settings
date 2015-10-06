@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"AdvancedNewFile",
+		"Asciidoctor",
 		"Color Highlighter",
 		"Dockerfile Syntax Highlighting",
 		"Git",
