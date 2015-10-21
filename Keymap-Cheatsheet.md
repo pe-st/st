@@ -35,4 +35,5 @@ ctrl-H      | Ctrl-H           | ??  | ok  | type hierarchy                 |   
 ⌥-Enter     | Alt-Enter        |     | ok  | show intention actions         |                             | quick fixes
             |                  |     |     |                                |                             |
 ⌘-S-A       | Ctrl-Shift-A     | mw  | ok  | find action                    | command palette             |
+⌘-F12       | Ctrl-F12         | mw  | ok  | file structure                 | goto '@'                    |
 ⌘-W         | Alt-W            |  w  | mw  | close editor tab               | close                       | IJ Mac ⌘-W redefined to ctrl-w

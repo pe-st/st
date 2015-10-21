@@ -10,6 +10,7 @@
     { "keys": ["alt+shift+down"], "command": "swap_line_down" },
     { "keys": ["ctrl+d"], "command": "duplicate_line" },
     { "keys": ["ctrl+shift+a"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["ctrl+f12"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
 
     // restore functions hidden by IntelliJ bindings on other keys
     { "keys": ["ctrl+shift+d"], "command": "find_under_expand" }, // original ctrl+d

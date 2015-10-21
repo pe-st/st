@@ -74,6 +74,7 @@ Sublime keymap has been adapted to match closely IntelliJ
 | Cmd-Alt-f  | Cmd-r      | C-h        |            | replace                  |                             |                |
 | Cmd-Alt-e  |            | C-S-h      |            | replace next             |                             |                |
 | Cmd-S-a    |            | C-S-a      |            | find action (palette)    | expand_selection to tag     |                |
+| Cmd-r      | Cmd-F12    | C-r        | C-F12      | file structure           |                             | use IJ         |
 
 https://www.jetbrains.com/idea/help/multicursor.html
 
