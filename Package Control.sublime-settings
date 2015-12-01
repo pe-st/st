@@ -7,11 +7,13 @@
 	[
 		"AdvancedNewFile",
 		"Asciidoctor",
+		"COBOL Syntax",
 		"Color Highlighter",
 		"Dockerfile Syntax Highlighting",
 		"Git",
 		"GitGutter",
 		"Indent XML",
+		"INI",
 		"InsertDate",
 		"Markdown Preview",
 		"MarkdownEditing",
