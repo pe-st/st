@@ -47,34 +47,34 @@ C-<     Show Console (Ctrl-`)
 
 Sublime keymap has been adapted to match closely IntelliJ
 
-| Sublime    | IntelliJ   | Subl Win   | IJ Windows | action                   | conflicting sublime action  | resolution     |
-| ---------- | ---------- | ---------- | ---------- | ------------------------ | --------------------------- | -------------- |
-| ⌘-S-D      | ⌘-D        | C-S-D      | C-D        | duplicate line           | find_under_expand           | use IJ         |
-| ⌥-C-up/d   | ⌘-up/d     | C-up/d     | C-up/d     | scroll line up/d         | move_to bof/eof             |                |
-| ⌘-C-up/d   | ⌘-S-up/d   | C-S-up/d   | A-S-up/d   | swap/move line up/d      | -                           | use IJ         |
-|            | ⌘-⌥-S-up/d |            | C-S-up/d   | swap/move statement up/d | select_lines (clone caret)  | clone caret    |
-|            | ⌥-up/d     |            | A-up/d     | next/prev method         | -                           |                |
-|            | C-⌥-up/d   |            | C-A-up/d   | next/prev occurrence     | scroll_lines                |                |
-|            | C-⌥-S-up/d |            | C-A-S-up/d | next/prev change         | -                           |                |
-| ⌘-up/d     | ⌘-end/h    |            |            | end/start of text        | -                           | use IJ         |
-| ⌥-Lmouse   | ⌥-Lmouse   |            |            | column select            | -                           |                |
-| ⌘-⌥-Lmouse | ⌥-S-Lmouse |            |            | add caret                | -                           | use IJ         |
-| C-S-up/d   | -          |            |            | clone caret up/d         | -                           | use Sublime    |
-| Cmd-i      | n/a        | C-i        | n/a        | incr find                |                             | just use find  |
-| Cmd-S-i    | n/a        | C-S-i      | n/a        | incr find reverse        |                             | just use find  |
-| Cmd-f      | Cmd-f      | C-f        | C-f        | find                     |                             |                |
-| Cmd-g      | F3         | F3         | F3         | find next                |                             |                |
-| Cmd-S-g    | S-F3       | S-F3       | S-F3       | find pref                |                             |                |
-| Cmd-Alt-g  |            | C-F3       |            | find under               |                             |                |
-| Cmd-A-S-g  |            | C-S-F3     |            | find under prev          |                             |                |
-| Cmd-ctrl-g |            | A-F3       |            | find under all           |                             |                |
-| Cmd-S-f    | ctrl-S-f   | C-S-f      | C-S-F      | find in files            |                             |                |
-| Cmd-e      |            | C-e        |            | slurp find               |                             |                |
-| Cmd-S-e    |            | C-S-e      |            | slurp replace            |                             |                |
-| Cmd-Alt-f  | Cmd-r      | C-h        |            | replace                  |                             |                |
-| Cmd-Alt-e  |            | C-S-h      |            | replace next             |                             |                |
-| Cmd-S-a    |            | C-S-a      |            | find action (palette)    | expand_selection to tag     |                |
-| Cmd-r      | Cmd-F12    | C-r        | C-F12      | file structure           |                             | use IJ         |
+| Sublime    | IntelliJ   | Subl Win   | IJ Windows | action                   | conflicting sublime action  | resolution                   |
+| ---------- | ---------- | ---------- | ---------- | ------------------------ | --------------------------- | ---------------------------- |
+| ⌘-S-D      | ⌘-D        | C-S-D      | C-D        | duplicate line           | find_under_expand           | use IJ                       |
+| ⌥-C-up/d   | ⌘-up/d     | C-up/d     | C-up/d     | scroll line up/d         | move_to bof/eof             |                              |
+| ⌘-C-up/d   | ⌘-S-up/d   | C-S-up/d   | A-S-up/d   | swap/move line up/d      | -                           | use IJ                       |
+|            | ⌘-⌥-S-up/d |            | C-S-up/d   | swap/move statement up/d | select_lines (clone caret)  | clone caret                  |
+|            | ⌥-up/d     |            | A-up/d     | next/prev method         | -                           |                              |
+|            | C-⌥-up/d   |            | C-A-up/d   | next/prev occurrence     | scroll_lines                |                              |
+|            | C-⌥-S-up/d |            | C-A-S-up/d | next/prev change         | -                           |                              |
+| ⌘-up/d     | ⌘-end/h    |            |            | end/start of text        | -                           | use IJ                       |
+| ⌥-Lmouse   | ⌥-Lmouse   |            |            | column select            | -                           |                              |
+| ⌘-⌥-Lmouse | ⌥-S-Lmouse |            |            | add caret                | -                           | use IJ                       |
+| C-S-up/d   | -          |            |            | clone caret up/d         | -                           | use Sublime                  |
+| Cmd-i      | n/a        | C-i        | n/a        | incr find                |                             | just use find                |
+| Cmd-S-i    | n/a        | C-S-i      | n/a        | incr find reverse        |                             | just use find                |
+| Cmd-f      | Cmd-f      | C-f        | C-f        | find                     |                             |                              |
+| Cmd-g      | F3         | F3         | F3         | find next                |                             |                              |
+| Cmd-S-g    | S-F3       | S-F3       | S-F3       | find pref                |                             |                              |
+| Cmd-Alt-g  |            | C-F3       |            | find under               |                             |                              |
+| Cmd-A-S-g  |            | C-S-F3     |            | find under prev          |                             |                              |
+| Cmd-ctrl-g |            | A-F3       |            | find under all           |                             |                              |
+| Cmd-S-f    | ctrl-S-f   | C-S-f      | C-S-f      | find in files            |                             |                              |
+| Cmd-e      |            | C-e        |            | slurp find               |                             |                              |
+| Cmd-S-e    |            | C-S-e      |            | slurp replace            |                             |                              |
+| Cmd-Alt-f  | Cmd-r      | C-h        | C-r        | replace                  | goto @ (symbol, outline)    | use IJ, C-F12 instead of C-r |
+| Cmd-Alt-e  |            | C-S-h      |            | replace next             |                             |                              |
+| Cmd-S-a    |            | C-S-a      |            | find action (palette)    | expand_selection to tag     |                              |
+| Cmd-r      | Cmd-F12    | C-r        | C-F12      | file structure           |                             | use IJ                       |
 
 https://www.jetbrains.com/idea/help/multicursor.html
 
