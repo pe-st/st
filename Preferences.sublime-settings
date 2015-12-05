@@ -6,11 +6,8 @@
 	"fade_fold_buttons": false,
 	"ignored_packages":
 	[
-		"RevertFontSize",
-		"Vintage",
-		"InsertDate",
-		"GitGutter",
-		"Markdown"
+		"Markdown",
+		"Vintage"
 	],
 	"index_exclude_patterns":
 	[
