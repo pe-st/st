@@ -63,6 +63,7 @@ Sublime keymap has been adapted to match closely IntelliJ
 | Cmd-i      | n/a        | C-i        | n/a        | incr find                |                             | just use find                |
 | Cmd-S-i    | n/a        | C-S-i      | n/a        | incr find reverse        |                             | just use find                |
 | Cmd-f      | Cmd-f      | C-f        | C-f        | find                     |                             |                              |
+|            |            |            | C-S-F7     | highlight                |                             |                              |
 | Cmd-g      | F3         | F3         | F3         | find next                |                             |                              |
 | Cmd-S-g    | S-F3       | S-F3       | S-F3       | find pref                |                             |                              |
 | Cmd-Alt-g  |            | C-F3       |            | find under               |                             |                              |
