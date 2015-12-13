@@ -14,6 +14,7 @@
     { "keys": ["super+shift+a"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
     { "keys": ["super+f12"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
     { "keys": ["super+r"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
+    { "keys": ["super+shift+f7"], "command": "find_under" },
 
     // restore functions hidden by IntelliJ bindings on other keys
     { "keys": ["super+shift+d"], "command": "find_under_expand" }, // original super+d

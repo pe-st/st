@@ -26,7 +26,7 @@ ctrl-⇧-up/d | Ctrl-Shift-up/d  |  w  | mw  | clone caret up/d (Multicursor) | 
 ⌘-F         | Ctrl-F           | ok  | ok  | find                           |                             |
 F3          | F3               | m   | ok  | find next                      |                             |
 Shift-F3    | Shift-F3         | m   | ok  | find previous                  |                             |
-⌘-⇧-F7      | Ctrl-Shift-F7    | ??  | ok  | highlight usages in file       |                             | navigate: F3/Shift-F3, exit: Esc
+⌘-⇧-F7      | Ctrl-Shift-F7    | mw  | ok  | highlight usages in file       |                             | navigate: F3/Shift-F3, exit: Esc
             |                  |     |     |                                |                             |
 ctrl-H      | Ctrl-H           | ??  | ok  | type hierarchy                 |                             | switch between class/supertype/subtype hierarchy!
             | Gutter Icons     | ??  | ok  | method hierarchy up/d          |                             |
