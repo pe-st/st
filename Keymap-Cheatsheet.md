@@ -37,3 +37,7 @@ ctrl-H      | Ctrl-H           | ??  | ok  | type hierarchy                 |   
 ⌘-S-A       | Ctrl-Shift-A     | mw  | ok  | find action                    | command palette             |
 ⌘-F12       | Ctrl-F12         | mw  | ok  | file structure                 | goto '@'                    |
 ⌘-W         | Alt-W            |  w  | mw  | close editor tab               | close                       | IJ Mac ⌘-W redefined to ctrl-w
+            |                  |     |     |                                |                             |
+ctrl-F5     | Ctrl-F5          | mw  | ?   |                                | insert ISO time             |
+⇧-F5        | Shift-F5         | mw  | ?   |                                | insert ISO date             |
+ctrl-⇧-F5   | Ctrl-Shift-F5    | mw  | ?   |                                | insert ISO datetime         |
