@@ -8,6 +8,13 @@ Sublime Text
 - Projects show the configured folders in the sidebar
 
 
+## Build Systems
+
+See http://docs.sublimetext.info/en/latest/reference/build_systems.html
+
+- Difference between `cmd` and `shell_cmd`: `cmd` is an array, `shell_cmd` a string. Use whatever is easier to get the quotes right ;-)
+- 
+
 ## Syntax and Colours
 
 ### Scopes
