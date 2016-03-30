@@ -3,18 +3,23 @@
   "working_dir": "$file_path",
   "variants": [
     {
-      "name": "lib",
-      "shell_cmd": "mingw32-make lib",
-      "file_regex": "^(...*?):([0-9]*):?([0-9]*)"
-    },
-    {
       "name": "unit",
       "shell_cmd": "mingw32-make unit",
-      "file_regex": "^(...*?):([0-9]*):?([0-9]*)"
+      "file_regex": "^([^ ]+?):([0-9]+):([0-9]+(?=[:]))?:? *(.*)"
+    },
+    {
+      "name": "lib",
+      "shell_cmd": "mingw32-make lib",
+      "file_regex": "^([^ ]+?):([0-9]+):([0-9]+(?=[:]))?:? *(.*)"
     },
     {
       "name": "lint",
-      "shell_cmd": "mingw32-make lint"
+      "shell_cmd": "mingw32-make lint",
+      "file_regex": "^([^ ]+?)\\(([0-9]+):?((?<=[:])[0-9]+)?\\) *: *(.*)"
+    },
+    {
+      "name": "clean",
+      "shell_cmd": "mingw32-make clean"
     }
   ]
 }
