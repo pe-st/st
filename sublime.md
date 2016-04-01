@@ -66,6 +66,11 @@ Match `filename(line:column):message` and `filename(line):message` :
 - Does work, but do you get rid of the highlighting?
 
 
+### Indent JSON
+
+- not only indent, but also reorders (alphabetically). For this reason I prefer Pretty JSON
+
+
 ### Indent XML
 
 Uses <kbd>Cmd</kbd>-<kbd>K</kbd>, <kbd>Cmd</kbd>-<kbd>F</kbd>
@@ -80,6 +85,11 @@ Uses <kbd>Cmd</kbd>-<kbd>K</kbd>, <kbd>Cmd</kbd>-<kbd>F</kbd>
 
 - Use it with Command Palette
 - Github Parser doesn't work through proxy
+
+
+### Pretty JSON
+
+- Format (Pretty Print) just pretty prints (good thing! 'Indent JSON' also reorder, which I hate...)
 
 
 ### Trailing Spaces
