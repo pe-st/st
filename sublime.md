@@ -40,9 +40,21 @@ Match `filename(line:column):message` and `filename(line):message` :
 
 ## Regex
 
-- Sublime Text uses the Perl Compatible Regular Expressions (PCRE) engine from the Boost library:
+### Perl (PCRE) regex
+
+- According to http://docs.sublimetext.info/en/latest/search_and_replace/search_and_replace_overview.html,
+  Sublime Text uses the Perl Compatible Regular Expressions (PCRE) engine from the Boost library:
   http://www.boost.org/doc/libs/1_44_0/libs/regex/doc/html/boost_regex/syntax/perl_syntax.html
 - Useful! : http://www.regexplanet.com/advanced/perl/index.html
+
+### Ruby (Oniguruma) regex
+
+- According to https://www.sublimetext.com/docs/3/syntax.html,
+  Sublime Syntax files use Ruby regexes (more precisely the Oniguruma Engine):
+  https://github.com/kkos/oniguruma/blob/master/doc/RE
+- http://www.regular-expressions.info/ruby.html
+- Useful: http://rubular.com/
+
 
 ## Plugins
 
