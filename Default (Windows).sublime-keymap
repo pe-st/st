@@ -19,6 +19,7 @@
     { "keys": ["ctrl+k", "ctrl+shift+d"], "command": "find_under_expand_skip" }, // original ctrl+d
 
     // do it like Sublime on Mac
+    { "keys": ["ctrl+alt+s"], "command": "save_all" },
     { "keys": ["ctrl+shift+up"], "command": "select_lines", "args": {"forward": false} },
     { "keys": ["ctrl+shift+down"], "command": "select_lines", "args": {"forward": true} },
     { "keys": ["alt+w"], "command": "close" },

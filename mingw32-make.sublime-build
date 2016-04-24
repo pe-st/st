@@ -18,6 +18,21 @@
       "file_regex": "^([^ ]+?)\\(([0-9]+):?((?<=[:])[0-9]+)?\\) *: *(.*)"
     },
     {
+      "name": "lint.local",
+      "shell_cmd": "mingw32-make lint.local",
+      "file_regex": "^([^ ]+?)\\(([0-9]+):?((?<=[:])[0-9]+)?\\) *: *(.*)"
+    },
+    {
+      "name": "lint current file",
+      "shell_cmd": "mingw32-make ../bin/gcc.dbg/lint/$file_base_name.lint",
+      "file_regex": "^([^ ]+?)\\(([0-9]+):?((?<=[:])[0-9]+)?\\) *: *(.*)"
+    },
+    {
+      "name": "lint current test file",
+      "shell_cmd": "mingw32-make ../../bin/gcc.dbg/lint/$file_base_name.lint",
+      "file_regex": "^([^ ]+?)\\(([0-9]+):?((?<=[:])[0-9]+)?\\) *: *(.*)"
+    },
+    {
       "name": "cross",
       "shell_cmd": "mingw32-make cross"
     },
