@@ -7,9 +7,11 @@
 	[
 		"AdvancedNewFile",
 		"Asciidoctor",
+		"CMake",
 		"COBOL Syntax",
 		"Color Highlighter",
 		"Dockerfile Syntax Highlighting",
+		"DoxyDoxygen",
 		"Git",
 		"Indent XML",
 		"INI",
