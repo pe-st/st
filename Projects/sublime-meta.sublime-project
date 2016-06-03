@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "file_exclude_patterns": [
+                "*.pdf"
+            ],
+            "folder_exclude_patterns": [
+                "Package Control.cache"
+            ],
+            "path": ".."
+        }
+    ]
+}
