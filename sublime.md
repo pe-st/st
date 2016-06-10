@@ -56,6 +56,18 @@ Match `filename(line:column):message` and `filename(line):message` :
 - Useful: http://rubular.com/
 
 
+## Find/Replace in Files
+
+*Where* field examples:
+
+- <project> (not available from the button...)
+- <current file>
+- <open files>
+- <open folders>
+- -*.doc
+- *.txt
+
+
 ## Plugins
 
 - Managed by Package Control
