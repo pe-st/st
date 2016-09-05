@@ -37,6 +37,10 @@
       "shell_cmd": "mingw32-make cross"
     },
     {
+      "name": "cross unit",
+      "shell_cmd": "mingw32-make cross.unit"
+    },
+    {
       "name": "clean",
       "shell_cmd": "mingw32-make clean"
     }

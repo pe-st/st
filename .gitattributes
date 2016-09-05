@@ -1,0 +1,5 @@
+# Set the default behavior, in case core.autocrlf isn't set.
+* text=auto
+
+# Files that Sublime writes as LF even on Windows
+Package Control.sublime-settings text eol=lf
