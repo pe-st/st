@@ -24,6 +24,11 @@ Match `filename(line:column):message` and `filename(line):message` :
 
     ^([^ ]+?)\(([0-9]+):?((?<=[:])[0-9]+)?\) *: *(.*)
 
+Match `"filename", line` (e.g. `"C:\Daten\src\FO\trunk\fo\ep2\raffl\testclient\RafFlClient.cpp", line 199: error(225)`)
+
+    ^\"([^ ]+?)\", line ([0-9]+)
+
+
 ## Syntax and Colours
 
 ### Scopes

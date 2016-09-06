@@ -34,11 +34,13 @@
     },
     {
       "name": "cross",
-      "shell_cmd": "mingw32-make cross"
+      "shell_cmd": "mingw32-make cross",
+      "file_regex": "^\"([^ ]+?)\", line ([0-9]+)"
     },
     {
       "name": "cross unit",
-      "shell_cmd": "mingw32-make cross.unit"
+      "shell_cmd": "mingw32-make cross.unit",
+      "file_regex": "^\"([^ ]+?)\", line ([0-9]+)"
     },
     {
       "name": "clean",
