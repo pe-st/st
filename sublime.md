@@ -7,6 +7,10 @@ Sublime Text
 - Only Projects should be added to version control
 - Projects show the configured folders in the sidebar
 
+### Add new projects to Project Manager (Plugin)
+
+- Use Project / Project Manager / Add Project
+
 
 ## Build Systems
 
