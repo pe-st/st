@@ -1,0 +1,12 @@
+{
+  "debug": false,
+  "options_default": {
+    "style": "bsd",
+    "attach-namespaces": true,
+    "min-conditional-indent": 0,
+    "max-instatement-indent": 120,
+    "pad-first-paren-out": false,
+    "align-pointer": "type",
+    "align-reference": "type"
+  }
+}

@@ -23,6 +23,11 @@
       "file_regex": "^([^ ]+?)\\(([0-9]+):?((?<=[:])[0-9]+)?\\) *: *(.*)"
     },
     {
+      "name": "lint.local c89",
+      "shell_cmd": "mingw32-make COMPILER=c89 lint.local",
+      "file_regex": "^([^ ]+?)\\(([0-9]+):?((?<=[:])[0-9]+)?\\) *: *(.*)"
+    },
+    {
       "name": "lint current file",
       "shell_cmd": "mingw32-make ../bin/gcc.dbg/lint/$file_base_name.lint",
       "file_regex": "^([^ ]+?)\\(([0-9]+):?((?<=[:])[0-9]+)?\\) *: *(.*)"
