@@ -14,7 +14,13 @@ Now it deletes empty lines, which is not intuitive
 
 Esc already used for closing find pane and build pane
 
+## Display current column also in column mode
+
+Currently it displays "x selection regions"
+
 ## Autocompletion not automatically (or not already for the first character)
+
+## Electric Parens: a right paren is often ignored, even if I want it
 
 ## Search in build result pane
 
