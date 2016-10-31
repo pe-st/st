@@ -47,6 +47,13 @@ Match `"filename", line` (e.g. `"C:\Daten\src\FO\trunk\fo\ep2\raffl\testclient\R
 - Reference: http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/reference/color_schemes.html
 - Use the *Color Highlighter* package to display the colors inline
 
+## Unicode and UTF-8
+
+- Default is UTF-8
+- set preference "show_encoding" to true to have the current encoding displayed in the status bar
+- change the encoding with "Save with encoding..." or "Reopen with encoding"
+
+
 ## Regex
 
 ### Perl (PCRE) regex
