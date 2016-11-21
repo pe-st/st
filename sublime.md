@@ -33,6 +33,18 @@ Match `"filename", line` (e.g. `"C:\Daten\src\FO\trunk\fo\ep2\raffl\testclient\R
     ^\"([^ ]+?)\", line ([0-9]+)
 
 
+## Settings
+
+See also http://docs.sublimetext.info/en/latest/customization/settings.html
+
+### Fonts
+
+- Packages/User/Preferences.sublime-settings is not platform specific, so no
+  differences between Mac and Windows possible without a plugin
+- Platform specific font can be configured with SyntaxMgr, but it's not always picked up upon start
+- Default Font on Mac: Menlo (good); best equivalent on PC: Meslo LG S DZ
+
+
 ## Syntax and Colours
 
 ### Scopes
@@ -90,6 +102,17 @@ matches multiline "88 Cobol value definitions"
 - <open folders>
 - -*.doc
 - *.txt
+
+
+## Console
+
+- Default key mapping is ctrl+backquote
+- with Swiss German keyboard I prefer ctrl-<
+
+Show settings:
+
+    s = sublime.load_settings("Preferences.sublime-settings")
+    s.get("font_face")
 
 
 ## Plugins
