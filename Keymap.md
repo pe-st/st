@@ -79,6 +79,10 @@ Sublime keymap has been adapted to match closely IntelliJ
 
 https://www.jetbrains.com/idea/help/multicursor.html
 
+Go Class (Ctrl-N in Jetbrains) : C-S-R (goto_symbol_in_project)
+Go File (C-S-N in Jetbrains) : C-P ({"overlay": "goto", "show_files": true})
+Go Declaration (C-B in Jetbrains) : F12 (goto_definition)
+
 
 ## Not to miss
 
