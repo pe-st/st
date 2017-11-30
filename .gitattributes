@@ -2,4 +2,5 @@
 * text=auto
 
 # Files that Sublime writes as LF even on Windows
-Package Control.sublime-settings text eol=lf
+Package\ Control.sublime-settings text eol=lf
+Preferences.sublime-settings text eol=lf
