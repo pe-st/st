@@ -100,8 +100,12 @@ Go Declaration (C-B in Jetbrains) : F12 (goto_definition)
 ⌘-⌥-S-2     Split horizontal in panes
 ⌘-⌥-1       Remove vertical split
 
-⌘-K, ⌘-down Split vertical (Origami)
-⌘-K, ⌥-down Clone File (new view) to lower pane
+⌘-K, ⌘-down   Split vertical (Origami)
+⌘-K, S-⌘-down Destroy lower pane (Origami)
+⌘-K, down     Travel down vertical (Origami)
+⌘-K, ⌥-down   Clone File (new view) to lower pane (Origami)
+⌘-K, S-down   Carry current File down vertical (Origami)
+
 
 
 ### Goto...
