@@ -24,3 +24,4 @@ Currently it displays "x selection regions"
 
 ## Search in build result pane
 
+## Disable Key Bindings of extension (e.g. Cmd-Opt-O in OmniMarkupPreview)
