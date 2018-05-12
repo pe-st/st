@@ -27,6 +27,8 @@
 		"ProjectManager",
 		"SideBarEnhancements",
 		"SublimeAStyleFormatter",
+		"SublimeLinter",
+		"SublimeLinter-pylint",
 		"SyntaxManager",
 		"Theme - Soda",
 		"TrailingSpaces"
