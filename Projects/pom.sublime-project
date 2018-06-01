@@ -2,8 +2,38 @@
     "folders":
     [
         {
-            "path": "C:\\Daten\\src\\fo_java_mars\\ao",
-            "name": "fo_java_mars/ao",
+            "path": "C:\\Daten\\src\\fo_java\\trunk",
+            "name": "fo_java/trunk",
+            "file_include_patterns": ["pom.xml"],
+            "folder_exclude_patterns": [".settings", ".idea", "src", "target"]
+        },
+        {
+            "path": "C:\\Daten\\src\\fo_java\\ao",
+            "name": "fo_java/ao",
+            "file_include_patterns": ["pom.xml"],
+            "folder_exclude_patterns": [".settings", ".idea", "src", "target"]
+        },
+        {
+            "path": "C:\\Daten\\src\\bitbucket\\ao",
+            "name": "bitbucket/ao",
+            "file_include_patterns": ["pom.xml"],
+            "folder_exclude_patterns": [".settings", ".idea", "src", "target"]
+        },
+        {
+            "path": "C:\\Daten\\src\\bitbucket.tksnp",
+            "name": "bitbucket ~tksnp",
+            "file_include_patterns": ["pom.xml"],
+            "folder_exclude_patterns": [".settings", ".idea", "src", "target"]
+        },
+        {
+            "path": "C:\\Daten\\src\\git",
+            "name": "github",
+            "file_include_patterns": ["pom.xml"],
+            "folder_exclude_patterns": [".settings", ".idea", "src", "target"]
+        },
+        {
+            "path": "C:\\Daten\\src\\gitlab",
+            "name": "gitlab",
             "file_include_patterns": ["pom.xml"],
             "folder_exclude_patterns": [".settings", ".idea", "src", "target"]
         }
