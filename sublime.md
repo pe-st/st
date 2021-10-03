@@ -11,6 +11,9 @@ Sublime Text
 
 - Use Project / Project Manager / Add Project
 
+### Autosave Session
+
+Unsaved files are stored in `~/Library/Application Support/Sublime Text 3/Local/Auto Save Session.sublime_session`
 
 ## Build Systems
 
