@@ -152,6 +152,8 @@ Uses <kbd>Cmd</kbd>-<kbd>K</kbd>, <kbd>Cmd</kbd>-<kbd>F</kbd>
 
 ### MarkdownEditing
 
+- https://sublimetext-markdown.github.io/MarkdownEditing
+- https://github.com/SublimeText-Markdown/MarkdownEditing
 - Default Markdown Syntax doesn't support Github Flavored Markdown
 - MarkdownEditing is better than knockdown
 
@@ -164,6 +166,11 @@ Uses <kbd>Cmd</kbd>-<kbd>K</kbd>, <kbd>Cmd</kbd>-<kbd>F</kbd>
 ### Pretty JSON
 
 - Format (Pretty Print) just pretty prints (good thing! 'Indent JSON' also reorder, which I hate...)
+
+
+### SublimeLinter
+
+- https://github.com/SublimeLinter/SublimeLinter/
 
 
 ### Trailing Spaces
